@@ -180,6 +180,8 @@ def radarCoords(radar, lati, long, degSize, refPlot, sweep):
                 fontsize='x-large', color='white')
     
     plt.show()
+    del radar
+    
     return fig
 
 # Here's a fun one. If you hadn't noticed, there's a required text file to put in
